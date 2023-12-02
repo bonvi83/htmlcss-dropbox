@@ -5,16 +5,10 @@
 }
 
 
-.navleft {
+header {
     display: flex;
     justify-content: space-between;
 }
-
-.navright {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 ul {
     list-style: none;
@@ -34,8 +28,6 @@ button {
     background-color: blue;
     color: black;
 }
-
-
 
 .bloccotitolo {
     background-color: gray;
