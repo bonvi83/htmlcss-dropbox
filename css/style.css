@@ -1,13 +1,9 @@
+/* funzioni reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-header {
-    display: flex;
-    justify-content: space-between;
 }
 
 ul {
@@ -24,11 +20,24 @@ a {
     color: black;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     background-color: blue;
     color: black;
 }
 
-.bloccotitolo {
-    background-color: gray;
+.container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.chetiserve {
+    display: flex;
 }
