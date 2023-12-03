@@ -42,6 +42,15 @@ button {
 }
 
 .container {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container2 {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -49,13 +58,8 @@ button {
     padding-right: 15px;
 }
 
-.chetiserve {
-    display: flex;
-    background-color: grey;
-}
-
 .colonna {
-    width: 500px;
+    width: 250px;
     height: 1000px;
     border: 5px solid black;
 }
