@@ -23,11 +23,23 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+    /* eventualmente da aggiungere posizione fissa della barra
+    position: sticky;
+    top: 0; */
 }
 
 button {
     background-color: blue;
     color: black;
+}
+
+/* come rimensionare un immagine? */
+
+.jmgjumbo {
+    width: 200px;
+    height: auto;
 }
 
 .container {
