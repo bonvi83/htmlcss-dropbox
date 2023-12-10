@@ -124,3 +124,20 @@ div {
     /* debug */
     border: 5px solid pink;
 }
+
+.wrap {
+    display: flex;
+    /* immagini dentro wrap devono essere centrate */
+}
+
+.minicard {
+    /* classe data per spaziature ed altro */
+}
+
+.minicard > img {
+    text-align: center;
+}
+
+.ridimensionaimg {
+    width: 200px;
+}
