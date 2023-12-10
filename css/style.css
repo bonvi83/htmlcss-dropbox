@@ -159,10 +159,16 @@ div {
 
 
 /* SEZIONE CON TANTI QUADRATI SUPER SUPER SUPER CASINO 
-misura del div sicuramente 1/3 */
+misura del div sicuramente 1/3 
+da aggiungere anche sfondo per ogni immagine */
 .quadraticolor {
     max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+
+    /* debug */
+    border: 5px solid black;
 }
 
 .quadleft > img{
