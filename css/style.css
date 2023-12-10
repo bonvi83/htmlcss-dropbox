@@ -35,20 +35,22 @@ button {
     color: white;
 }
 
-/* DA RIDIMENSIONARE immagine */
-
+/* DA RIPOSIZIONARE immagine */
 .imgjumbo {
     width: 600px;
 }
 
-h1 {
+
+
+.sottonav {
+    background-color: rgb(170, 222, 236);
+}
+
+.titoloh1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-
-    /* da verificare per quanto riguarda la "disposizione" del titolo 
-    padding-right: 15px; */
 }
 
 .container {
@@ -59,8 +61,13 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
 
+/* debug */
     border: 5px solid green;
+}
 
+/* per visualizzare bene ogni singolo div ed eventualmente assegnare nuove classi o id */
+div {
+    border: 2px solid orange;
 }
 
 .container2 {
@@ -70,8 +77,8 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
 
-    border: 5px solid gray;
-
+/* debug */
+    border: 5px solid black;
 }
 
 .container-col {
@@ -81,15 +88,30 @@ h1 {
 
 .colanna-vertical {
     width: 250px;
-    height: 200px;
+    border: 2px solid grey;
+}
 
-    border: 5px solid black;
+.button-white {
+    background-color: white;
+    color: grey;
 }
 
 .colonna-orizontal {
-    border: 5px solid red;
-
+    border: 2px solid grey;
+    width: 100%;
 }
+
+.colonna-orizontal2 {
+    border: 2px solid grey;
+    width: 100%;
+    display: flex;
+}
+
+#img-partner {
+    width: 400px;
+}
+
+
 
 .container-quad {
     /* impostazioni simili ad conteiner 2 */
@@ -99,6 +121,6 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
 
+    /* debug */
     border: 5px solid pink;
-
 }
