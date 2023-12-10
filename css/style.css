@@ -160,3 +160,32 @@ div {
 .sottoquadrati {
     background-color: rgb(170, 222, 236);
 }
+
+.domande {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* debug */
+    border: 5px solid red;
+}
+
+footer {
+    background-color: black;
+}
+
+.listefooter {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.singlelistfooter > ul {
+    color: white;
+    /* da modificare anche qui la lista MA NON NE VENGO FUORI */
+}
