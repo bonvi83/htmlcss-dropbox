@@ -35,10 +35,20 @@ button {
     color: white;
 }
 
-/* come rimensionare un immagine? */
+/* DA RIDIMENSIONARE immagine */
 
 .imgjumbo {
     width: 600px;
+}
+
+h1 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+
+    /* da verificare per quanto riguarda la "disposizione" del titolo 
+    padding-right: 15px; */
 }
 
 .container {
@@ -48,6 +58,9 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    border: 5px solid green;
+
 }
 
 .container2 {
@@ -56,19 +69,36 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    border: 5px solid gray;
+
 }
 
 .container-col {
     display: flex;
+    justify-content: space-between;
 }
 
 .colanna-vertical {
     width: 250px;
     height: 200px;
+
     border: 5px solid black;
 }
 
 .colonna-orizontal {
-        border: 5px solid red;
+    border: 5px solid red;
+
+}
+
+.container-quad {
+    /* impostazioni simili ad conteiner 2 */
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: 5px solid pink;
 
 }
