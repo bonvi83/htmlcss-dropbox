@@ -58,12 +58,17 @@ button {
     padding-right: 15px;
 }
 
-/* non riesco a creare colonne, perchè? */
+.container-col {
+    display: flex;
+}
 
-.colonna {
+.colanna-vertical {
     width: 250px;
-    height: 1000px;
+    height: 200px;
     border: 5px solid black;
 }
 
-/* provo ad andare avanti con esercizio */
+.colonna-orizontal {
+        border: 5px solid red;
+
+}
