@@ -131,13 +131,32 @@ div {
 }
 
 .minicard {
-    /* classe data per spaziature ed altro */
 }
 
 .minicard > img {
-    text-align: center;
+    /* da posizionare immagine al centro NON NE SONO CAPACE CON ALIGN-ITEMS */
+    margin-left: 60px;
 }
 
 .ridimensionaimg {
     width: 200px;
+}
+
+
+/* DA UTILIZZARE SELETTORI CSS AVANZATI PER SCRIVERE MENO VOLTE LA STESSA COSA */
+.portainazienda {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* debug */
+    border: 5px solid brown;
+}
+
+.sottoquadrati {
+    background-color: rgb(170, 222, 236);
 }
